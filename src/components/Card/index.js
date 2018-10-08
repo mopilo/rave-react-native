@@ -416,7 +416,7 @@ export default class index extends Component {
                       autoCorrect={false}
                       editable={(this.state.loading)?false:true}
                       keyboardType="numeric"
-                      style={{ fontSize: 20, paddingHorizontal: 10, minWidth:"95%"}}
+                      style={{ fontSize: 20, paddingHorizontal: 10, minWidth:"95%", borderBottomWidth: 1, bordeerColor:'#000'}}
                       underlineColorAndroid='rgba(0,0,0,0)'
                       onChangeText={(cardno) => this.cc_format( cardno )}
                       value={this.state.cardno}
@@ -437,7 +437,7 @@ export default class index extends Component {
                         editable={(this.state.loading) ? false : true}
                         ref="1"
                         keyboardType="numeric"
-                        style={{ fontSize: 20, flexGrow: 2, height: 45, alignSelf: 'flex-start', width: '45%' }}
+                        style={{ fontSize: 20, flexGrow: 2, height: 45, alignSelf: 'flex-start', width: '45%', borderBottomWidth: 1, bordeerColor:'#000' }}
                         underlineColorAndroid='rgba(0,0,0,0)'
                         placeholder="MM"
                         maxLength={2}
@@ -497,7 +497,7 @@ export default class index extends Component {
                         editable={(this.state.loading) ? false : true}
                         ref="2"
                         keyboardType="numeric"
-                        style={{ fontSize: 20, flexGrow: 2, height: 45, alignSelf: 'flex-end', width: '45%', textAlign: 'right' }}
+                        style={{ fontSize: 20, flexGrow: 2, height: 45, alignSelf: 'flex-end', width: '45%', textAlign: 'right', borderBottomWidth: 1, bordeerColor:'#000' }}
                       underlineColorAndroid='rgba(0,0,0,0)'
                       placeholder="YY"
                         maxLength={2}
@@ -532,7 +532,7 @@ export default class index extends Component {
                       maxLength={4}
                       // secureTextEntry={true}
                       underlineColorAndroid='rgba(0,0,0,0)'
-                      style={{ height: 45, width: '100%', fontSize: 20 }}
+                      style={{ height: 45, width: '100%', fontSize: 20, borderBottomWidth: 1, bordeerColor:'#000' }}
                       onChangeText={(cvv) => this.setState({ cvv })}
                       value={this.state.cvv}
                     />

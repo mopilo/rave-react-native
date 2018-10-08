@@ -36,7 +36,7 @@ export default class PinModal extends Component {
                         autoCorrect={false}
                         keyboardType="numeric"
                         secureTextEntry={true}
-                        style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "98%" }}
+                        style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "98%", borderBottomWidth: 1, bordeerColor:'#000' }}
                         underlineColorAndroid='rgba(0,0,0,0)'
                         onChangeText={(pin) => this.props.pinEdit(pin)}
                         value={this.props.pin}
