@@ -33,7 +33,7 @@ export default class OtpModal extends Component {
                       <TextInput
                         autoCorrect={false}
                         keyboardType="numeric"
-                        style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "98%" }}
+                        style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "98%", borderBottomWidth: 1, borderColor: '#000' }}
                         underlineColorAndroid='rgba(0,0,0,0)'
                         onChangeText={(otp) => this.props.otpEdit(otp)}
                         value={this.props.otp}
@@ -43,10 +43,9 @@ export default class OtpModal extends Component {
                 </View>
               </View>
 
-
               <TouchableOpacity onPress={this.props.confirm} style={{ width: "100%" }}>
                 <View style={{ backgroundColor: this.props.primarycolor, paddingVertical: 15, borderRadius: 5 }}>
-                  <Text style={{ fontSize: 13, textAlign: "center", fontWeight: "bold" }}>ENTER</Text>
+                  <Text style={{ fontSize: 13, textAlign: "center", fontWeight: "bold", color: '#fff' }}>ENTER</Text>
                 </View>
               </TouchableOpacity>
           </View>
@@ -62,5 +61,6 @@ const styles = StyleSheet.create({
   },
   label: {
     color: "#ACACAC"
-  }
+  },
+  
 });

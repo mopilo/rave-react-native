@@ -316,7 +316,7 @@ export default class index extends Component {
                     autoCorrect={false}
                     editable={(this.state.loading) ? false : true}
                     keyboardType="phone-pad"
-                    style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "100%" }}
+                    style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "100%", borderBottomWidth: 1, borderColor: '#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(phonenumber) => this.setState({phonenumber})}
                     value={this.state.phonenumber}

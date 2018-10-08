@@ -49,7 +49,7 @@ export default class PinModal extends Component {
 
               <TouchableOpacity onPress={this.props.confirm} style={{ width: "100%" }}>
                 <View style={{ backgroundColor: this.props.primarycolor, paddingVertical: 15, borderRadius: 5 }}>
-                  <Text style={{ fontSize: 13, textAlign: "center", fontWeight: "bold" }}>ENTER</Text>
+                  <Text style={{ fontSize: 13, textAlign: "center", fontWeight: "bold", color: '#fff' }}>ENTER</Text>
                 </View>
               </TouchableOpacity>
           </View>
