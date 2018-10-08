@@ -1,9 +1,35 @@
 {
-  "name": "react-native-rave",
-  "main": "Rave.js",
-  "version": "0.0.8",
-  "author": "Oluwole Adebiyi, Tofunmi Kupoluyi",
-  "license": "MIT",
+  "_from": "react-native-rave",
+  "_id": "react-native-rave@0.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-ELR4Gmg2sKfagiG49MBLydd7/+72/R3PypkKsTSpVOn4dtnveWgM7zd8AuK9G2Rv8xds1JOwvXkLIJLl+9VjOg==",
+  "_location": "/react-native-rave",
+  "_phantomChildren": {
+    "prop-types": "15.6.2",
+    "react-native-iphone-x-helper": "1.0.3"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-rave",
+    "name": "react-native-rave",
+    "escapedName": "react-native-rave",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-rave/-/react-native-rave-0.0.8.tgz",
+  "_shasum": "171ae6a32140ca7d23dff2c01ecfea94068f618c",
+  "_spec": "react-native-rave",
+  "_where": "/Users/mac/Documents/Development/React_Native/mobile",
+  "author": {
+    "name": "Oluwole Adebiyi, Tofunmi Kupoluyi"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "axios": "^0.18.0",
     "card-validator": "^5.0.0",
@@ -12,8 +38,12 @@
     "native-base": "^2.7.2",
     "node-forge": "^0.7.5",
     "prop-types": "^15.6.2",
-    "react": "16.3.1",
-    "react-native": "~0.55.2",
     "react-native-keyboard-aware-scroll-view": "^0.6.0"
-  }
+  },
+  "deprecated": false,
+  "description": "<img src=\"https://raw.githubusercontent.com/kingflamez/Rave-React-Native-Component/master/img/rnapp.png\" style=\"text-align: center;max-height: 400;\">",
+  "license": "MIT",
+  "main": "Rave.js",
+  "name": "react-native-rave",
+  "version": "0.0.8"
 }
