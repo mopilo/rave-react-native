@@ -98,7 +98,7 @@ export default class IntlModal extends Component {
                 <View style={{ paddingVertical: 10, flexDirection: 'row' }}>
                   <TextInput
                     placeholder="Address eg 20 Saltlake Eldorado"
-                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(address) => this.setState({ address })}
                     value={this.state.address}
@@ -114,7 +114,7 @@ export default class IntlModal extends Component {
                 <View style={{ paddingVertical: 10, flexDirection: 'row' }}>
                   <TextInput
                     placeholder="City eg Livingstone"
-                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(city) => this.setState({ city })}
                     value={this.state.city}
@@ -130,7 +130,7 @@ export default class IntlModal extends Component {
                 <View style={{ paddingVertical: 10, flexDirection: 'row' }}>
                   <TextInput
                     placeholder="State eg CA"
-                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(state) => this.setState({ state })}
                     value={this.state.state}
@@ -146,7 +146,7 @@ export default class IntlModal extends Component {
                 <View style={{ paddingVertical: 10, flexDirection: 'row' }}>
                   <TextInput
                     placeholder="Zip Code eg 928302"
-                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(zipcode) => this.setState({ zipcode })}
                     value={this.state.zipcode}
@@ -162,7 +162,7 @@ export default class IntlModal extends Component {
                 <View style={{ paddingVertical: 10, flexDirection: 'row' }}>
                   <TextInput
                     placeholder="Country eg US"
-                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 13, paddingHorizontal: 10, width: '100%', borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(country) => this.setState({ country })}
                     value={this.state.country}

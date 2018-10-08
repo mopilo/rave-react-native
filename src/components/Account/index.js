@@ -334,7 +334,7 @@ export default class index extends Component {
                     autoCorrect={false}
                     editable={(this.state.loading) ? false : true}
                     keyboardType="numeric"
-                    style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "100%", borderBottomWidth: 1, bordeerColor:'#000' }}
+                    style={{ fontSize: 20, paddingHorizontal: 10, minWidth: "100%", borderBottomWidth: 1, borderColor:'#000' }}
                     underlineColorAndroid='rgba(0,0,0,0)'
                     maxLength={10}
                     onChangeText={(accountnumber) => this.setState({ accountnumber })}
